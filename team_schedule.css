@@ -78,7 +78,7 @@ button{
 .modal-csk{
     height: 50vh;
     width: 50vw;
-    background-image: url(./team_sheadule/csk.jpg);
+    background-image: url(team_sheadule/csk.jpg);
     background-size: cover;
     background-size: contain;
     background-position: center;
@@ -86,7 +86,7 @@ button{
 }
 .modal-container-csk:target{
   opacity: 1;
-  transform: scale(1);
+  transform: scale(2);
 }
 
 .modal-container-mi{
@@ -106,7 +106,7 @@ button{
 .modal-mi{
     height: 50vh;
     width: 50vw;
-    background-image: url(./team_sheadule/mi.jpg);
+    background-image: url(team_sheadule/mi.jpg);
     background-size: cover;
     background-size: contain;
     background-position: center;
@@ -114,7 +114,7 @@ button{
 }
 .modal-container-mi:target{
   opacity: 1;
-  transform: scale(1);
+  transform: scale(2);
 }
 
 .modal-container-rcb{
@@ -134,7 +134,7 @@ button{
 .modal-rcb{
     height: 50vh;
     width: 50vw;
-    background-image: url(./team_sheadule/rcb.jpg);
+    background-image: url(team_sheadule/rcb.jpg);
     background-size: cover;
     background-size: contain;
     background-position: center;
@@ -162,7 +162,7 @@ button{
 .modal-kkr{
     height: 50vh;
     width: 50vw;
-    background-image: url(./team_sheadule/kkr.jpg);
+    background-image: url(team_sheadule/kkr.jpg);
     background-size: cover;
     background-size: contain;
     background-position: center;
@@ -190,7 +190,7 @@ button{
 .modal-dc{
     height: 50vh;
     width: 50vw;
-    background-image: url(./team_sheadule/dc.jpg);
+    background-image: url(team_sheadule/dc.jpg);
     background-size: cover;
     background-size: contain;
     background-position: center;
@@ -217,7 +217,7 @@ button{
 .modal-srh{
     height: 50vh;
     width: 50vw;
-    background-image: url(./team_sheadule/srh.jpg);
+    background-image: url(team_sheadule/srh.jpg);
     background-size: cover;
     background-size: contain;
     background-position: center;
@@ -244,7 +244,7 @@ button{
 .modal-kxip{
     height: 50vh;
     width: 50vw;
-    background-image: url(./team_sheadule/kxip.jpg);
+    background-image: url(team_sheadule/kxip.jpg);
     background-size: cover;
     background-size: contain;
     background-position: center;
@@ -272,7 +272,7 @@ button{
 .modal-rr{
     height: 50vh;
     width: 50vw;
-    background-image: url(./team_sheadule/rr.jpg);
+    background-image: url(team_sheadule/rr.jpg);
     background-size: cover;
     background-size: contain;
     background-position: center;
@@ -300,7 +300,7 @@ button{
 .modal-lsg{
     height: 50vh;
     width: 50vw;
-    background-image: url(./team_sheadule/lsg.jpg);
+    background-image: url(team_sheadule/lsg.jpg);
     background-size: cover;
     background-size: contain;
     background-position: center;
@@ -328,7 +328,7 @@ button{
 .modal-gt{
     height: 50vh;
     width: 50vw;
-    background-image: url(./team_sheadule/lsg.jpg);
+    background-image: url(team_sheadule/lsg.jpg);
     background-size: cover;
     background-size: contain;
     background-position: center;
