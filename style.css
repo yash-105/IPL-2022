@@ -1,0 +1,74 @@
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 5vw;
+  }
+  .logo{
+      display: flex;
+      float: left;
+      height: 30vh;
+      width: 40vw;
+  }
+  .nav{
+      margin-top: 10vh;
+  }
+  
+  .nav li {
+    float: left;
+    margin-left: 10vw;
+  }
+  
+  .nav li a {
+    font-size: 40px;
+    position: relative;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    z-index: 0;
+  }
+  body{
+      background-color: #20273c;
+  }
+  li a:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    bottom: 0;
+    left: 0;
+    background-color:grey;
+    z-index: -1;
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .today{
+     text-align: center;
+     color: #fff;
+  }
+
+  h1{
+      color: orange;
+      text-align: center;
+      font-size: 60px;
+  }
+  
+  li a:hover:before,
+  li a:focus:before {
+    transform: scale(1);
+  }
+
+
+  .start{
+    height:40vh;
+    width: 50vw;
+    margin-left: 30vw;
+    background-image: url(https://www.insidesport.in/wp-content/uploads/2022/01/eng-banner-2.jpg);
+    background-size: contain;
+    background-size: cover;
+  }

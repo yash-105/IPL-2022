@@ -1,0 +1,90 @@
+body{
+    background-color: #0D0D16;
+}
+
+.box{
+    margin-left: 20vw;
+    margin-top: 30vh;
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-gap: 20vw;
+}
+
+.btn{
+   height: 180px;
+   width:180px;
+   font-size: 25px;
+   
+}
+
+.button-grow {
+    color: white;
+    background-color: red;
+    border: 1px solid #65b5f6;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-grow:hover {
+      background-color: green;
+    transform: scale(1.5);
+  }
+
+  .modal-container-o{
+      position: absolute;
+      height: 100vh;
+      width: 100vw;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: scale(0);
+      transition:all 0.3s;
+  }
+  .modal-o{
+      height: 50vh;
+      width: 50vw;
+      background-image: url(https://i0.wp.com/c.ndtvimg.com/2022-03/6cus342_ipl-2022-schedule-1_625x300_06_March_22.jpg?w=810&ssl=1);
+      background-size: cover;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .modal-container-o:target{
+    opacity: 1;
+    transform: scale(2);
+  }
+
+  .close{
+    color: cyan;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.close:hover{
+    background-color: red;
+    color: black;
+}
+
+.back{
+  margin-top: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.back-btn{
+  height: 10vh;
+  width: 20vh;
+  border-radius: 20%;
+  background-color:white;
+  color: black;
+ font-size: 25px;
+}
+
+.back-btn:hover{
+  background-color: palevioletred;
+}

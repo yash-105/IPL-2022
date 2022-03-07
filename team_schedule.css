@@ -1,0 +1,366 @@
+body{
+    background-color: purple;
+}
+button{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 10px;
+}
+.boxes{
+    margin-left: 8vw;
+    margin-top: 20vh;
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw 10vw 10vw;
+    grid-gap: 10vw;
+}
+
+.button-grow {
+    color: white;
+    background-color: red;
+    border: 1px solid #65b5f6;
+    border-radius: 40%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-grow:hover {
+      background-color: green;
+      transform: scale(1.5);
+  }
+  .csk{
+    background-color: yellow;
+    color: black;
+}
+.mi{
+    background-color:blue;
+}
+.kkr{
+    background-color: purple;
+}
+
+.dc{
+    background-color:cyan;
+}
+
+.srh{
+    background-color:orangered;
+}
+
+.kxip{
+    background-color:rgb(143, 5, 5);
+}
+
+.rr{
+    background-color: rgb(255, 0, 43);
+}
+
+.gt{
+    background-color: wheat;
+}
+.lsg{
+    background-color: orchid;
+}
+
+.modal-container-csk{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition:all 0.3s;
+}
+.modal-csk{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./team_sheadule/csk.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.modal-container-csk:target{
+  opacity: 1;
+  transform: scale(1);
+}
+
+.modal-container-mi{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition:all 0.3s;
+}
+.modal-mi{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./team_sheadule/mi.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.modal-container-mi:target{
+  opacity: 1;
+  transform: scale(1);
+}
+
+.modal-container-rcb{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition:all 0.3s;
+}
+.modal-rcb{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./team_sheadule/rcb.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.modal-container-rcb:target{
+  opacity: 1;
+  transform: scale(2);
+}
+
+.modal-container-kkr{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition:all 0.3s;
+}
+.modal-kkr{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./team_sheadule/kkr.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.modal-container-kkr:target{
+  opacity: 1;
+  transform: scale(2);
+}
+
+.modal-container-dc{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition:all 0.3s;
+}
+.modal-dc{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./team_sheadule/dc.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.modal-container-dc:target{
+  opacity: 1;
+  transform: scale(2);
+}
+.modal-container-srh{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition:all 0.3s;
+}
+.modal-srh{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./team_sheadule/srh.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.modal-container-srh:target{
+  opacity: 1;
+  transform: scale(2);
+}
+.modal-container-kxip{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition:all 0.3s;
+}
+.modal-kxip{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./team_sheadule/kxip.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.modal-container-kxip:target{
+  opacity: 1;
+  transform: scale(2);
+}
+
+.modal-container-rr{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition:all 0.3s;
+}
+.modal-rr{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./team_sheadule/rr.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.modal-container-rr:target{
+  opacity: 1;
+  transform: scale(2);
+}
+
+.modal-container-lsg{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition:all 0.3s;
+}
+.modal-lsg{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./team_sheadule/lsg.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.modal-container-lsg:target{
+  opacity: 1;
+  transform: scale(2);
+}
+
+.modal-container-gt{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition:all 0.3s;
+}
+.modal-gt{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./team_sheadule/lsg.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.modal-container-gt:target{
+  opacity: 1;
+  transform: scale(2);
+}
+
+.close{
+    color: cyan;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.close:hover{
+    background-color: red;
+    color: black;
+}
+.back{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.back-btn{
+    background-color:black;
+    color: white;
+   font-size: 25px;
+}
+
+.back-btn:hover{
+    background-color: grey;
+}
